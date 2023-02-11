@@ -1,0 +1,26 @@
+#logindiv{
+    display:flex;
+    justify-content:center;
+    margin:0px 0px 80px 0px;
+}
+#loginForm{
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    border:1px solid;
+    padding: 2% 2%;
+    gap:10px;
+}
+#loginForm > input {
+    height:30px;
+    margin:10px 0px;
+}
+#submitlogin{
+    height:30px;
+    width:30%;
+    align-self: center;
+    background-color: rgb(239,82,114);
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+}
